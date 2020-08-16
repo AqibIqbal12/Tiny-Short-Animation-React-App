@@ -46,7 +46,7 @@ export const TopBar = () => {
     return (
         <div className={classes.container}>
             <div>
-                {"Tiny Animation Project!!!!".split("").map((char, index) => (
+                {"Tiny Animation Project".split("").map((char, index) => (
                     <RainbowText key={index} startingHueDegree={index * 25}>
                         {char}
                     </RainbowText>
